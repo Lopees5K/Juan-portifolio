@@ -202,3 +202,10 @@
     cursor: pointer;
     transition: 0.7;
 }
+
+.arrow {
+    size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+}
