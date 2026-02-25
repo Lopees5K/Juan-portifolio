@@ -21,6 +21,7 @@
     --base-gray-600: #0d0e11;
 
     --font1-family: 'Asap', sans-serif;
+    --font1-text-lg: 800 56px/120% var(--font1-family);
     --font1-text-md: 800 24px/120% var(--font1-family);
     --font1-text-sm: 800 16px/120% var(--font1-family);
 
@@ -28,8 +29,8 @@
     --font2-text: normal 20px/120% var(--font2-family);
 
     --font3-family: 'Maven Pro', sans-serif;
-    --font1-text-md: normal 16px/140% var(--font3-family);
-    --font1-text-sm: normal 14px/140% var(--font3-family);
+    --font3-text-md: normal 16px/140% var(--font3-family);
+    --font3-text-sm: normal 14px/140% var(--font3-family);
 }
 
 
@@ -78,3 +79,114 @@
     right: 3px;
 }
 
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello {
+    font: var(--font2-text);
+    color: var(--base-gray-100);
+    margin-bottom: 8px;
+
+    span{
+        color: var(--red);
+    }
+}
+
+.cargo {
+    font: var(--font1-text-lg);
+    color: var(--base-gray-100);
+    margin-bottom: 20px;
+}
+
+.about {
+    font: var(--font3-text-sm);
+    color: var(--base-gray-300);
+    padding-bottom: 80px;
+}
+
+#icons1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+    
+    
+}
+.tecnology1 {
+    color: var(--base-gray-200);
+    font: var(--font3-text-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--base-gray-400);
+    border-radius: 30px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    background-color: var(--base-gray-400);
+    
+}
+
+.tecnology1:hover {
+    cursor: pointer;
+    transition: 0.7;
+}
+
+
+.tecnology2 {
+    color: var(--base-gray-200);
+    font: var(--font3-text-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--base-gray-400);
+    border-radius: 30px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    background-color: var(--base-gray-400);
+}
+.tecnology2:hover {
+    cursor: pointer;
+    transition: 0.7;
+}
+
+.tecnology3 {
+    color: var(--base-gray-200);
+    font: var(--font3-text-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--base-gray-400);
+    border-radius: 30px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    background-color: var(--base-gray-400);
+
+}
+
+.tecnology3:hover{
+    cursor: pointer;
+    transition: 0.7;
+}
+
+.tecnology4 {
+   color: var(--base-gray-200);
+    font: var(--font3-text-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--base-gray-400);
+    border-radius: 30px;
+    padding-block: 8px;
+    padding-inline: 16px;
+    background-color: var(--base-gray-400);
+}
+
+.tecnology4:hover{
+    cursor: pointer;
+    transition: 0.7;
+}
