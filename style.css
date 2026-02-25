@@ -149,6 +149,10 @@
     padding-inline: 16px;
     background-color: var(--base-gray-400);
 }
+
+.tecnology2 svg path {
+    fill: var(--red);
+}
 .tecnology2:hover {
     cursor: pointer;
     transition: 0.7;
@@ -168,6 +172,10 @@
 
 }
 
+.tecnology3 svg path {
+    fill: var(--blue);
+}
+
 .tecnology3:hover{
     cursor: pointer;
     transition: 0.7;
@@ -184,6 +192,10 @@
     padding-block: 8px;
     padding-inline: 16px;
     background-color: var(--base-gray-400);
+}
+
+.tecnology4 svg path {
+    fill: var(--yellow);
 }
 
 .tecnology4:hover{
