@@ -242,7 +242,11 @@
 }
 
 #cards {
-    margin-inline: 163px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .card-projeto1 {
@@ -253,6 +257,11 @@
     height: 280px;
 }
 
+.card-projeto1:hover {
+    border: solid 1px var(--base-gray-300);
+    cursor: pointer;
+}
+
 .projeto-travel1 {
     width: 306px;
     height: 156px;
@@ -260,7 +269,7 @@
     border-radius: 8px;
 }
 
-.projeto-travel img {
+.projeto-travel1 img {
     width: 306px;
     height: 156px;
     border-radius: 8px;
@@ -287,6 +296,11 @@
     
 }
 
+.card-projeto2:hover {
+    border: solid 1px var(--base-gray-300);
+    cursor: pointer;
+}
+
 .projeto-travel2 {
     width: 306px;
     height: 156px;
@@ -308,6 +322,84 @@
 }
 
 .legenda-card2 p {
+    color: var(--base-gray-200);
+    font: var(--font3-text-sm);
+}
+
+.card-projeto3 {
+    background-color: var(--base-gray-400);
+    padding: 12px;
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+    
+}
+
+.card-projeto3:hover {
+    border: solid 1px var(--base-gray-300);
+    cursor: pointer;
+}
+
+.projeto-travel3 {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.projeto-travel3 img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+}
+
+.titulo-card3 h2 {
+    font: var(--font1-text-sm);
+    font-weight: bold;
+    color: var(--base-gray-100);
+    margin-block: 24px 8px;
+}
+
+.legenda-card3 p {
+    color: var(--base-gray-200);
+    font: var(--font3-text-sm);
+}
+
+.card-projeto4 {
+    background-color: var(--base-gray-400);
+    padding: 12px;
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+    
+}
+
+.card-projeto4:hover {
+    border: solid 1px var(--base-gray-300);
+    cursor: pointer;
+}
+
+.projeto-travel4 {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.projeto-travel4 img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+}
+
+.titulo-card4 h2 {
+    font: var(--font1-text-sm);
+    font-weight: bold;
+    color: var(--base-gray-100);
+    margin-block: 24px 8px;
+}
+
+.legenda-card4 p {
     color: var(--base-gray-200);
     font: var(--font3-text-sm);
 }
