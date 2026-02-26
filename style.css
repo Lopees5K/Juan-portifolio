@@ -102,7 +102,7 @@
     margin-bottom: 20px;
 }
 
-.about {
+.sobre {
     font: var(--font3-text-sm);
     color: var(--base-gray-300);
     padding-bottom: 80px;
@@ -239,4 +239,75 @@
     font: var(--font1-text-md);
     color: var(--base-gray-100);
     margin-bottom: 56px;
+}
+
+#cards {
+    margin-inline: 163px;
+}
+
+.card-projeto1 {
+    background-color: var(--base-gray-400);
+    padding: 12px;
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+}
+
+.projeto-travel1 {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.projeto-travel img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+}
+
+.titulo-card1 h2 {
+    font: var(--font1-text-sm);
+    font-weight: bold;
+    color: var(--base-gray-100);
+    margin-block: 24px 8px;
+}
+
+.legenda-card1 p {
+    color: var(--base-gray-200);
+    font: var(--font3-text-sm);
+}
+
+.card-projeto2 {
+    background-color: var(--base-gray-400);
+    padding: 12px;
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+    
+}
+
+.projeto-travel2 {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.projeto-travel2 img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+}
+
+.titulo-card2 h2 {
+    font: var(--font1-text-sm);
+    font-weight: bold;
+    color: var(--base-gray-100);
+    margin-block: 24px 8px;
+}
+
+.legenda-card2 p {
+    color: var(--base-gray-200);
+    font: var(--font3-text-sm);
 }
