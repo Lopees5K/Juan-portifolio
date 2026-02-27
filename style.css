@@ -403,3 +403,126 @@
     color: var(--base-gray-200);
     font: var(--font3-text-sm);
 }
+
+#setor3 {
+    height: 480px;
+    width: 100%;
+    background-color: var(--base-gray-600);
+    padding-block: 88px 120px;
+    padding-inline: 120px;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicos p {
+    font: var(--font2-text);
+    color: var(--red);
+    margin-bottom: 8px;
+}
+
+.servicos h2 {
+    font: var(--font1-text-md);
+    color: var(--base-gray-100);
+    margin-bottom: 56px;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.web {
+    width: 280px;
+    height: 155px;
+    border: solid var(--base-gray-500) 2px;
+    border-radius: 13px;
+    padding: 20px;
+
+    svg path {
+    fill: var(--purple);
+    width: 48px;
+    height: 48px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font: var(--font1-text-sm);
+        color: var(--base-gray-200);
+        margin-bottom: 8px;
+    }
+
+    p {
+        font: var(--font3-text-sm);
+        color: var(--base-gray-200);
+    }
+
+
+}
+   
+.api {
+    width: 280px;
+    height: 155px;
+    border: solid var(--base-gray-500) 2px;
+    border-radius: 13px;
+    padding: 20px;
+
+    svg path {
+    fill: var(--yellow);
+    width: 48px;
+    height: 48px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font: var(--font1-text-sm);
+        color: var(--base-gray-200);
+        margin-bottom: 8px;
+    }
+
+    p {
+        font: var(--font3-text-sm);
+        color: var(--base-gray-200);
+    }
+
+
+}
+
+.dev {
+    width: 280px;
+    height: 155px;
+    border: solid var(--base-gray-500) 2px;
+    border-radius: 13px;
+    padding: 20px;
+
+    svg path {
+    fill: var(--green);
+    width: 48px;
+    height: 48px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font: var(--font1-text-sm);
+        color: var(--base-gray-200);
+        margin-bottom: 8px;
+    }
+
+    p {
+        font: var(--font3-text-sm);
+        color: var(--base-gray-200);
+    }
+
+
+}
+
+.setor4 {
+    background-image: url(assets/backgrounds/Background_Contacts.png);
+    height: 787px;
+    width: 100%;
+    background-size: cover;
+}
