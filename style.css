@@ -637,7 +637,86 @@
     fill: var(--blue);
 }
 
+.linkedin a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 68px;
+    background-color: var(--base-gray-400);
+    border-radius: 8px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--base-gray-100);
+
+    p {
+        font: var(--font3-text-md);
+        color: var(--base-gray-200);
+    }
+
+}
+
+.linkedin:hover {
+    border: solid 1px var(--blue);
+    border-radius: 8px;
+}
+
+.linkedin:hover {
+    svg path{
+        fill: var(--blue);
+    }
+}
+
+.din {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.link-arrow svg path {
+    fill: var(--blue);
+}
+
 /* p {
-    dsdsdssds
+    sdsdds
 } */
 
+.email a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 68px;
+    background-color: var(--base-gray-400);
+    border-radius: 8px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--base-gray-100);
+
+    p {
+        font: var(--font3-text-md);
+        color: var(--base-gray-200);
+    }
+
+}
+
+.email:hover {
+    border: solid 1px var(--blue);
+    border-radius: 8px;
+}
+
+.email:hover {
+    svg path{
+        fill: var(--blue);
+    }
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.link-arrow svg path {
+    fill: var(--blue);
+}
